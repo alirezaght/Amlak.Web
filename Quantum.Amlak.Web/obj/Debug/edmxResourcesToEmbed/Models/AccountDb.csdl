@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AmlakAccountingDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AmlakAccountingDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Credit" EntityType="AmlakAccountingDbModel.Credit" />
+    <EntitySet Name="Device" EntityType="AmlakAccountingDbModel.Device" />
+    <EntitySet Name="Transaction" EntityType="AmlakAccountingDbModel.Transaction" />
+    <EntitySet Name="User" EntityType="AmlakAccountingDbModel.User" />
+    <AssociationSet Name="FK_Credit_User" Association="AmlakAccountingDbModel.FK_Credit_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Credit" EntitySet="Credit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Device_User" Association="AmlakAccountingDbModel.FK_Device_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Device" EntitySet="Device" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Device" Association="AmlakAccountingDbModel.FK_Transaction_Device">
+      <End Role="Device" EntitySet="Device" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_User" Association="AmlakAccountingDbModel.FK_Transaction_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Credit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="StartFrom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Length" Type="Int32" Nullable="false" />
+    <Property Name="VocherId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="AmlakAccountingDbModel.FK_Credit_User" FromRole="Credit" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Device">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="DeviceName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DeviceBrand" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DeviceIMEI" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastConnectedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DeviceId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="AmlakAccountingDbModel.FK_Device_User" FromRole="Device" ToRole="User" />
+    <NavigationProperty Name="Transaction" Relationship="AmlakAccountingDbModel.FK_Transaction_Device" FromRole="Device" ToRole="Transaction" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OccuredTime" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="DeviceId" Type="Int32" Nullable="false" />
+    <Property Name="SentData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Device" Relationship="AmlakAccountingDbModel.FK_Transaction_Device" FromRole="Transaction" ToRole="Device" />
+    <NavigationProperty Name="User" Relationship="AmlakAccountingDbModel.FK_Transaction_User" FromRole="Transaction" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Credit" Relationship="AmlakAccountingDbModel.FK_Credit_User" FromRole="User" ToRole="Credit" />
+    <NavigationProperty Name="Device" Relationship="AmlakAccountingDbModel.FK_Device_User" FromRole="User" ToRole="Device" />
+    <NavigationProperty Name="Transaction" Relationship="AmlakAccountingDbModel.FK_Transaction_User" FromRole="User" ToRole="Transaction" />
+  </EntityType>
+  <Association Name="FK_Credit_User">
+    <End Type="AmlakAccountingDbModel.User" Role="User" Multiplicity="1" />
+    <End Type="AmlakAccountingDbModel.Credit" Role="Credit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Credit">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Device_User">
+    <End Type="AmlakAccountingDbModel.User" Role="User" Multiplicity="1" />
+    <End Type="AmlakAccountingDbModel.Device" Role="Device" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Device">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Device">
+    <End Type="AmlakAccountingDbModel.Device" Role="Device" Multiplicity="1" />
+    <End Type="AmlakAccountingDbModel.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Device">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="DeviceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_User">
+    <End Type="AmlakAccountingDbModel.User" Role="User" Multiplicity="1" />
+    <End Type="AmlakAccountingDbModel.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

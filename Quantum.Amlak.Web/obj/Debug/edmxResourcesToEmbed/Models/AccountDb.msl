@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AmlakAccountingDbModelStoreContainer" CdmEntityContainer="AmlakAccountingDbEntities">
+    <EntitySetMapping Name="Credit">
+      <EntityTypeMapping TypeName="AmlakAccountingDbModel.Credit">
+        <MappingFragment StoreEntitySet="Credit">
+          <ScalarProperty Name="VocherId" ColumnName="VocherId" />
+          <ScalarProperty Name="Length" ColumnName="Length" />
+          <ScalarProperty Name="StartFrom" ColumnName="StartFrom" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Device">
+      <EntityTypeMapping TypeName="AmlakAccountingDbModel.Device">
+        <MappingFragment StoreEntitySet="Device">
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="LastConnectedDate" ColumnName="LastConnectedDate" />
+          <ScalarProperty Name="DeviceIMEI" ColumnName="DeviceIMEI" />
+          <ScalarProperty Name="DeviceBrand" ColumnName="DeviceBrand" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transaction">
+      <EntityTypeMapping TypeName="AmlakAccountingDbModel.Transaction">
+        <MappingFragment StoreEntitySet="Transaction">
+          <ScalarProperty Name="SentData" ColumnName="SentData" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OccuredTime" ColumnName="OccuredTime" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="AmlakAccountingDbModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AmlakAccountingDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Credit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="StartFrom" Type="datetime" Nullable="false" />
+    <Property Name="Length" Type="int" Nullable="false" />
+    <Property Name="VocherId" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Device">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="DeviceName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DeviceBrand" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DeviceIMEI" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastConnectedDate" Type="datetime" Nullable="false" />
+    <Property Name="DeviceId" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OccuredTime" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="DeviceId" Type="int" Nullable="false" />
+    <Property Name="SentData" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Credit_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Credit" Type="Self.Credit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Credit">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Device_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Device" Type="Self.Device" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Device">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Device">
+    <End Role="Device" Type="Self.Device" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Device">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="DeviceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AmlakAccountingDbModelStoreContainer">
+    <EntitySet Name="Credit" EntityType="Self.Credit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Device" EntityType="Self.Device" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Credit_User" Association="Self.FK_Credit_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Credit" EntitySet="Credit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Device_User" Association="Self.FK_Device_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Device" EntitySet="Device" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Device" Association="Self.FK_Transaction_Device">
+      <End Role="Device" EntitySet="Device" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_User" Association="Self.FK_Transaction_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

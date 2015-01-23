@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed178f36715f4864bbe6531a0c8137a3" Name="Diagram1">
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseAddress" Width="1.5" PointX="0.75" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseDublex" Width="1.5" PointX="9" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseHararat" Width="1.5" PointX="3.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseJusti" Width="1.5" PointX="3.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseKabinet" Width="1.5" PointX="9" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseKaf" Width="1.5" PointX="3.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseKarbari" Width="1.5" PointX="6.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseKitchen" Width="1.5" PointX="9" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseMahdoodeh" Width="1.5" PointX="6.75" PointY="87.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseMalekiat" Width="1.5" PointX="6.75" PointY="90" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseMCategory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseMobleh" Width="1.5" PointX="6.75" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseNama" Width="1.5" PointX="3.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseNBargh" Width="1.5" PointX="3.75" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseNJavaz" Width="1.5" PointX="3.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseOperator" Width="1.5" PointX="3.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BasePool" Width="1.5" PointX="6.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseRefer" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseResidan" Width="1.5" PointX="3.75" PointY="73.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseSanad" Width="1.5" PointX="3.75" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseService" Width="1.5" PointX="9" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseTablo" Width="1.5" PointX="3.75" PointY="80.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseWall" Width="1.5" PointX="3.75" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseZRegion" Width="1.5" PointX="6.75" PointY="92.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_EjareAparteman" Width="1.5" PointX="3" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_EjareMaghaze" Width="1.5" PointX="6" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_EjareMostaghelat" Width="1.5" PointX="9" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_EjareVila" Width="1.5" PointX="12" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_SaleAparteman" Width="1.5" PointX="15" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_SaleMaghaze" Width="1.5" PointX="6" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_SaleMostaghelat" Width="1.5" PointX="9" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_SaleVila" Width="1.5" PointX="6" PointY="72.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_SaleZamin" Width="1.5" PointX="9" PointY="72" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.users" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.vila" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.zamin" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseFile" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_BaseResult" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_DetailEjareMostaghelat" Width="1.5" PointX="17.25" PointY="63.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="amlakModel.tbl_DetailSaleMostaghelat" Width="1.5" PointX="11.25" PointY="51.25" IsExpanded="true" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseDublex" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseHararat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseJusti" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseKabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseKaf" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseKarbari" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseKitchen" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseMahdoodeh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseMalekiat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseMobleh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseNama" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseNBargh" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseNJavaz" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseNJavaz" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseOperator" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BasePool" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMostaghelat_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseResidan" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseSanad" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseSanad" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMostaghelat_tbl_BaseSanad" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseSanad" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseSanad" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareAparteman_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareVila_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleAparteman_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleVila_tbl_BaseService" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseTablo" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseTablo" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_EjareMaghaze_tbl_BaseWall" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleMaghaze_tbl_BaseWall" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_SaleZamin_tbl_BaseZregion" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailEjareMostaghelat_tbl_EjareMostaghelat" ManuallyRouted="false" />
+        <AssociationConnector Association="amlakModel.FK_tbl_DetailSaleMostaghelat_tbl_SaleMostaghelat" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

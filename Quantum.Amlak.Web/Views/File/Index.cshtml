@@ -1,0 +1,14 @@
+﻿@using (Ajax.BeginForm("GetRentFiles", "File", new AjaxOptions
+{//GetPacients is name of method in PacientController
+
+    InsertionMode = InsertionMode.Replace,//target element(#pacientList) will be replacet
+    UpdateTargetId = "fileTbl",
+}))
+{
+     string skip = "";
+    @Html.EditorFor(x => skip) //text box with name and id, that it will pass to controller
+                            <input type="submit" value="Search" />
+}
+    {@Html.Partial("Files")}// this is view with pacient table. Same view you will return from controller
+
+

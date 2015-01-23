@@ -1,0 +1,1553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="amlakModelStoreContainer" CdmEntityContainer="AmlakMainEntities">
+    <EntitySetMapping Name="tbl_BaseAddress">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseAddress">
+        <MappingFragment StoreEntitySet="tbl_BaseAddress">
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseDublex">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseDublex">
+        <MappingFragment StoreEntitySet="tbl_BaseDublex">
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="chrNameDublex" ColumnName="chrNameDublex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseHararat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseHararat">
+        <MappingFragment StoreEntitySet="tbl_BaseHararat">
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseJusti">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseJusti">
+        <MappingFragment StoreEntitySet="tbl_BaseJusti">
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseKabinet">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseKabinet">
+        <MappingFragment StoreEntitySet="tbl_BaseKabinet">
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseKaf">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseKaf">
+        <MappingFragment StoreEntitySet="tbl_BaseKaf">
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseKarbari">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseKarbari">
+        <MappingFragment StoreEntitySet="tbl_BaseKarbari">
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseKitchen">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseKitchen">
+        <MappingFragment StoreEntitySet="tbl_BaseKitchen">
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseMahdoodeh">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseMahdoodeh">
+        <MappingFragment StoreEntitySet="tbl_BaseMahdoodeh">
+          <ScalarProperty Name="intIdMahdoodeh" ColumnName="intIdMahdoodeh" />
+          <ScalarProperty Name="chrNameMahdoodeh" ColumnName="chrNameMahdoodeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseMalekiat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseMalekiat">
+        <MappingFragment StoreEntitySet="tbl_BaseMalekiat">
+          <ScalarProperty Name="intIdMalekiat" ColumnName="intIdMalekiat" />
+          <ScalarProperty Name="chrNameMalekiat" ColumnName="chrNameMalekiat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseMCategory">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseMCategory">
+        <MappingFragment StoreEntitySet="tbl_BaseMCategory">
+          <ScalarProperty Name="intIdMCategory" ColumnName="intIdMCategory" />
+          <ScalarProperty Name="chrNameMCategory" ColumnName="chrNameMCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseMobleh">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseMobleh">
+        <MappingFragment StoreEntitySet="tbl_BaseMobleh">
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="chrNameMobleh" ColumnName="chrNameMobleh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseNama">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseNama">
+        <MappingFragment StoreEntitySet="tbl_BaseNama">
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseNBargh">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseNBargh">
+        <MappingFragment StoreEntitySet="tbl_BaseNBargh">
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="chrNameNBargh" ColumnName="chrNameNBargh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseNJavaz">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseNJavaz">
+        <MappingFragment StoreEntitySet="tbl_BaseNJavaz">
+          <ScalarProperty Name="intIdNJavaz" ColumnName="intIdNJavaz" />
+          <ScalarProperty Name="chrNameNJavaz" ColumnName="chrNameNJavaz" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseOperator">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseOperator">
+        <MappingFragment StoreEntitySet="tbl_BaseOperator">
+          <ScalarProperty Name="intIdOperator" ColumnName="intIdOperator" />
+          <ScalarProperty Name="chrNameOperator" ColumnName="chrNameOperator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BasePool">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BasePool">
+        <MappingFragment StoreEntitySet="tbl_BasePool">
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="chrNamePool" ColumnName="chrNamePool" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseRefer">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseRefer">
+        <MappingFragment StoreEntitySet="tbl_BaseRefer">
+          <ScalarProperty Name="intIdRefer" ColumnName="intIdRefer" />
+          <ScalarProperty Name="chrNameRefer" ColumnName="chrNameRefer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseResidan">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseResidan">
+        <MappingFragment StoreEntitySet="tbl_BaseResidan">
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseSanad">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseSanad">
+        <MappingFragment StoreEntitySet="tbl_BaseSanad">
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseService">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseService">
+        <MappingFragment StoreEntitySet="tbl_BaseService">
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseTablo">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseTablo">
+        <MappingFragment StoreEntitySet="tbl_BaseTablo">
+          <ScalarProperty Name="intIdTablo" ColumnName="intIdTablo" />
+          <ScalarProperty Name="chrNameTablo" ColumnName="chrNameTablo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseWall">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseWall">
+        <MappingFragment StoreEntitySet="tbl_BaseWall">
+          <ScalarProperty Name="intIdWall" ColumnName="intIdWall" />
+          <ScalarProperty Name="chrNameWall" ColumnName="chrNameWall" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseZRegion">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseZRegion">
+        <MappingFragment StoreEntitySet="tbl_BaseZRegion">
+          <ScalarProperty Name="intIdZregion" ColumnName="intIdZregion" />
+          <ScalarProperty Name="chrNameZRegion" ColumnName="chrNameZRegion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EjareAparteman">
+      <EntityTypeMapping TypeName="amlakModel.tbl_EjareAparteman">
+        <MappingFragment StoreEntitySet="tbl_EjareAparteman">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="blnSuit" ColumnName="blnSuit" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="blnMalek" ColumnName="blnMalek" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="blnPantHouse" ColumnName="blnPantHouse" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EjareMaghaze">
+      <EntityTypeMapping TypeName="amlakModel.tbl_EjareMaghaze">
+        <MappingFragment StoreEntitySet="tbl_EjareMaghaze">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnAbdarkhaneh" ColumnName="blnAbdarkhaneh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdNJavaz" ColumnName="intIdNJavaz" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="chrJob" ColumnName="chrJob" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnWC" ColumnName="blnWC" />
+          <ScalarProperty Name="fltErtefa" ColumnName="fltErtefa" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdWall" ColumnName="intIdWall" />
+          <ScalarProperty Name="intIdTablo" ColumnName="intIdTablo" />
+          <ScalarProperty Name="blnVitrin" ColumnName="blnVitrin" />
+          <ScalarProperty Name="blnGhafaseh" ColumnName="blnGhafaseh" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EjareMostaghelat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_EjareMostaghelat">
+        <MappingFragment StoreEntitySet="tbl_EjareMostaghelat">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_EjareVila">
+      <EntityTypeMapping TypeName="amlakModel.tbl_EjareVila">
+        <MappingFragment StoreEntitySet="tbl_EjareVila">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_SaleAparteman">
+      <EntityTypeMapping TypeName="amlakModel.tbl_SaleAparteman">
+        <MappingFragment StoreEntitySet="tbl_SaleAparteman">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="blnSuit" ColumnName="blnSuit" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="fltVam" ColumnName="fltVam" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="blnPishForoush" ColumnName="blnPishForoush" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="blnPantHouse" ColumnName="blnPantHouse" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="fltTimeTahvil" ColumnName="fltTimeTahvil" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_SaleMaghaze">
+      <EntityTypeMapping TypeName="amlakModel.tbl_SaleMaghaze">
+        <MappingFragment StoreEntitySet="tbl_SaleMaghaze">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnAbdarkhaneh" ColumnName="blnAbdarkhaneh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdNJavaz" ColumnName="intIdNJavaz" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="chrJob" ColumnName="chrJob" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="intIdOperator" ColumnName="intIdOperator" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnWC" ColumnName="blnWC" />
+          <ScalarProperty Name="fltErtefa" ColumnName="fltErtefa" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltSarghofli" ColumnName="fltSarghofli" />
+          <ScalarProperty Name="fltSMetri" ColumnName="fltSMetri" />
+          <ScalarProperty Name="fltMalekiat" ColumnName="fltMalekiat" />
+          <ScalarProperty Name="fltMMetri" ColumnName="fltMMetri" />
+          <ScalarProperty Name="fltRuyeham" ColumnName="fltRuyeham" />
+          <ScalarProperty Name="fltRMetri" ColumnName="fltRMetri" />
+          <ScalarProperty Name="fltKelid" ColumnName="fltKelid" />
+          <ScalarProperty Name="fltMablaghJadid" ColumnName="fltMablaghJadid" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="intIdWall" ColumnName="intIdWall" />
+          <ScalarProperty Name="intIdTablo" ColumnName="intIdTablo" />
+          <ScalarProperty Name="blnVitrin" ColumnName="blnVitrin" />
+          <ScalarProperty Name="blnGhafaseh" ColumnName="blnGhafaseh" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_SaleMostaghelat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_SaleMostaghelat">
+        <MappingFragment StoreEntitySet="tbl_SaleMostaghelat">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="blnKolangi" ColumnName="blnKolangi" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_SaleVila">
+      <EntityTypeMapping TypeName="amlakModel.tbl_SaleVila">
+        <MappingFragment StoreEntitySet="tbl_SaleVila">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="blnKolangi" ColumnName="blnKolangi" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_SaleZamin">
+      <EntityTypeMapping TypeName="amlakModel.tbl_SaleZamin">
+        <MappingFragment StoreEntitySet="tbl_SaleZamin">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="intIdMahdoodeh" ColumnName="intIdMahdoodeh" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdZRegion" ColumnName="intIdZRegion" />
+          <ScalarProperty Name="fltTarakom" ColumnName="fltTarakom" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="fltmetraj" ColumnName="fltmetraj" />
+          <ScalarProperty Name="blnWall" ColumnName="blnWall" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="blnAsfalt" ColumnName="blnAsfalt" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnBargh" ColumnName="blnBargh" />
+          <ScalarProperty Name="fltTool" ColumnName="fltTool" />
+          <ScalarProperty Name="blnChaheAb" ColumnName="blnChaheAb" />
+          <ScalarProperty Name="tintFaseleh" ColumnName="tintFaseleh" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="blnBuildCrt" ColumnName="blnBuildCrt" />
+          <ScalarProperty Name="intIdMalekiat" ColumnName="intIdMalekiat" />
+          <ScalarProperty Name="chrNTree" ColumnName="chrNTree" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="amlakModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vila">
+      <EntityTypeMapping TypeName="amlakModel.vila">
+        <MappingFragment StoreEntitySet="vila">
+          <ScalarProperty Name="number1" ColumnName="number1" />
+          <ScalarProperty Name="date1" ColumnName="date1" />
+          <ScalarProperty Name="eslah" ColumnName="eslah" />
+          <ScalarProperty Name="dateeslah" ColumnName="dateeslah" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="name1" ColumnName="name1" />
+          <ScalarProperty Name="phone1" ColumnName="phone1" />
+          <ScalarProperty Name="phone2" ColumnName="phone2" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="addressmelk" ColumnName="addressmelk" />
+          <ScalarProperty Name="pelak" ColumnName="pelak" />
+          <ScalarProperty Name="kolangi" ColumnName="kolangi" />
+          <ScalarProperty Name="ground" ColumnName="ground" />
+          <ScalarProperty Name="bar" ColumnName="bar" />
+          <ScalarProperty Name="eslahi" ColumnName="eslahi" />
+          <ScalarProperty Name="zirbana" ColumnName="zirbana" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="tphone" ColumnName="tphone" />
+          <ScalarProperty Name="gaz" ColumnName="gaz" />
+          <ScalarProperty Name="nbargh" ColumnName="nbargh" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="kaf" ColumnName="kaf" />
+          <ScalarProperty Name="park" ColumnName="park" />
+          <ScalarProperty Name="kitchen" ColumnName="kitchen" />
+          <ScalarProperty Name="kabinet" ColumnName="kabinet" />
+          <ScalarProperty Name="anbari" ColumnName="anbari" />
+          <ScalarProperty Name="service" ColumnName="service" />
+          <ScalarProperty Name="omr" ColumnName="omr" />
+          <ScalarProperty Name="hararat" ColumnName="hararat" />
+          <ScalarProperty Name="shomineh" ColumnName="shomineh" />
+          <ScalarProperty Name="sona" ColumnName="sona" />
+          <ScalarProperty Name="hayat" ColumnName="hayat" />
+          <ScalarProperty Name="pool" ColumnName="pool" />
+          <ScalarProperty Name="jakuzi" ColumnName="jakuzi" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="metri" ColumnName="metri" />
+          <ScalarProperty Name="dublex" ColumnName="dublex" />
+          <ScalarProperty Name="karbari" ColumnName="karbari" />
+          <ScalarProperty Name="residan" ColumnName="residan" />
+          <ScalarProperty Name="tavasot" ColumnName="tavasot" />
+          <ScalarProperty Name="varedkonandeh" ColumnName="varedkonandeh" />
+          <ScalarProperty Name="molahezat" ColumnName="molahezat" />
+          <ScalarProperty Name="justi" ColumnName="justi" />
+          <ScalarProperty Name="sanad" ColumnName="sanad" />
+          <ScalarProperty Name="rname1" ColumnName="rname1" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="melkinfo" ColumnName="melkinfo" />
+          <ScalarProperty Name="entmelkinfo" ColumnName="entmelkinfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="zamin">
+      <EntityTypeMapping TypeName="amlakModel.zamin">
+        <MappingFragment StoreEntitySet="zamin">
+          <ScalarProperty Name="number1" ColumnName="number1" />
+          <ScalarProperty Name="date1" ColumnName="date1" />
+          <ScalarProperty Name="eslah" ColumnName="eslah" />
+          <ScalarProperty Name="dateeslah" ColumnName="dateeslah" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="name1" ColumnName="name1" />
+          <ScalarProperty Name="phone1" ColumnName="phone1" />
+          <ScalarProperty Name="phone2" ColumnName="phone2" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="addressmelk" ColumnName="addressmelk" />
+          <ScalarProperty Name="mahdoodeh" ColumnName="mahdoodeh" />
+          <ScalarProperty Name="justi" ColumnName="justi" />
+          <ScalarProperty Name="zregion" ColumnName="zregion" />
+          <ScalarProperty Name="tarakom" ColumnName="tarakom" />
+          <ScalarProperty Name="eslahi" ColumnName="eslahi" />
+          <ScalarProperty Name="metraj" ColumnName="metraj" />
+          <ScalarProperty Name="wall" ColumnName="wall" />
+          <ScalarProperty Name="sanad" ColumnName="sanad" />
+          <ScalarProperty Name="bar" ColumnName="bar" />
+          <ScalarProperty Name="asfalt" ColumnName="asfalt" />
+          <ScalarProperty Name="ab" ColumnName="ab" />
+          <ScalarProperty Name="bargh" ColumnName="bargh" />
+          <ScalarProperty Name="tool" ColumnName="tool" />
+          <ScalarProperty Name="chaheab" ColumnName="chaheab" />
+          <ScalarProperty Name="fasele" ColumnName="fasele" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="metri" ColumnName="metri" />
+          <ScalarProperty Name="molahezat" ColumnName="molahezat" />
+          <ScalarProperty Name="residan" ColumnName="residan" />
+          <ScalarProperty Name="tavasot" ColumnName="tavasot" />
+          <ScalarProperty Name="varedkonandeh" ColumnName="varedkonandeh" />
+          <ScalarProperty Name="rname1" ColumnName="rname1" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="melkinfo" ColumnName="melkinfo" />
+          <ScalarProperty Name="entmelkinfo" ColumnName="entmelkinfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseFile">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseFile">
+        <MappingFragment StoreEntitySet="tbl_BaseFile">
+          <ScalarProperty Name="intIdFile" ColumnName="intIdFile" />
+          <ScalarProperty Name="chrNameFile" ColumnName="chrNameFile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_BaseResult">
+      <EntityTypeMapping TypeName="amlakModel.tbl_BaseResult">
+        <MappingFragment StoreEntitySet="tbl_BaseResult">
+          <ScalarProperty Name="intIdResult" ColumnName="intIdResult" />
+          <ScalarProperty Name="chrNameResult" ColumnName="chrNameResult" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DetailEjareMostaghelat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_DetailEjareMostaghelat">
+        <MappingFragment StoreEntitySet="tbl_DetailEjareMostaghelat">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DetailSaleMostaghelat">
+      <EntityTypeMapping TypeName="amlakModel.tbl_DetailSaleMostaghelat">
+        <MappingFragment StoreEntitySet="tbl_DetailSaleMostaghelat">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="blnTafkik" ColumnName="blnTafkik" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ap_Rent" FunctionName="amlakModel.Store.aa_SP_Ap_Rent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ap_Rent_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="blnSuit" ColumnName="blnSuit" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="blnMalek" ColumnName="blnMalek" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="blnPantHouse" ColumnName="blnPantHouse" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ap_Sale" FunctionName="amlakModel.Store.aa_SP_Ap_Sale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ap_Sale_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="blnSuit" ColumnName="blnSuit" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="fltVam" ColumnName="fltVam" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="blnPishForoush" ColumnName="blnPishForoush" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="blnPantHouse" ColumnName="blnPantHouse" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="fltTimeTahvil" ColumnName="fltTimeTahvil" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdSanad1" ColumnName="intIdSanad1" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Shop_Rent" FunctionName="amlakModel.Store.aa_SP_Shop_Rent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Shop_Rent_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnAbdarkhaneh" ColumnName="blnAbdarkhaneh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdNJavaz" ColumnName="intIdNJavaz" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="chrJob" ColumnName="chrJob" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnWC" ColumnName="blnWC" />
+          <ScalarProperty Name="fltErtefa" ColumnName="fltErtefa" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdWall" ColumnName="intIdWall" />
+          <ScalarProperty Name="intIdTablo" ColumnName="intIdTablo" />
+          <ScalarProperty Name="blnVitrin" ColumnName="blnVitrin" />
+          <ScalarProperty Name="blnGhafaseh" ColumnName="blnGhafaseh" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdWall1" ColumnName="intIdWall1" />
+          <ScalarProperty Name="chrNameWall" ColumnName="chrNameWall" />
+          <ScalarProperty Name="intIdNBargh1" ColumnName="intIdNBargh1" />
+          <ScalarProperty Name="chrNameNBargh" ColumnName="chrNameNBargh" />
+          <ScalarProperty Name="intIdNJavaz1" ColumnName="intIdNJavaz1" />
+          <ScalarProperty Name="chrNameNJavaz" ColumnName="chrNameNJavaz" />
+          <ScalarProperty Name="intIdTablo1" ColumnName="intIdTablo1" />
+          <ScalarProperty Name="chrNameTablo" ColumnName="chrNameTablo" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Shop_Sale" FunctionName="amlakModel.Store.aa_SP_Shop_Sale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Shop_Sale_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="sintTPhone" ColumnName="sintTPhone" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnAbdarkhaneh" ColumnName="blnAbdarkhaneh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdNJavaz" ColumnName="intIdNJavaz" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="chrJob" ColumnName="chrJob" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="intIdOperator" ColumnName="intIdOperator" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnWC" ColumnName="blnWC" />
+          <ScalarProperty Name="fltErtefa" ColumnName="fltErtefa" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltSarghofli" ColumnName="fltSarghofli" />
+          <ScalarProperty Name="fltSMetri" ColumnName="fltSMetri" />
+          <ScalarProperty Name="fltMalekiat" ColumnName="fltMalekiat" />
+          <ScalarProperty Name="fltMMetri" ColumnName="fltMMetri" />
+          <ScalarProperty Name="fltRuyeham" ColumnName="fltRuyeham" />
+          <ScalarProperty Name="fltRMetri" ColumnName="fltRMetri" />
+          <ScalarProperty Name="fltKelid" ColumnName="fltKelid" />
+          <ScalarProperty Name="fltMablaghJadid" ColumnName="fltMablaghJadid" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="intIdWall" ColumnName="intIdWall" />
+          <ScalarProperty Name="intIdTablo" ColumnName="intIdTablo" />
+          <ScalarProperty Name="blnVitrin" ColumnName="blnVitrin" />
+          <ScalarProperty Name="blnGhafaseh" ColumnName="blnGhafaseh" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdWall1" ColumnName="intIdWall1" />
+          <ScalarProperty Name="chrNameWall" ColumnName="chrNameWall" />
+          <ScalarProperty Name="intIdNBargh1" ColumnName="intIdNBargh1" />
+          <ScalarProperty Name="chrNameNBargh" ColumnName="chrNameNBargh" />
+          <ScalarProperty Name="intIdNJavaz1" ColumnName="intIdNJavaz1" />
+          <ScalarProperty Name="chrNameNJavaz" ColumnName="chrNameNJavaz" />
+          <ScalarProperty Name="intIdTablo1" ColumnName="intIdTablo1" />
+          <ScalarProperty Name="chrNameTablo" ColumnName="chrNameTablo" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdSanad1" ColumnName="intIdSanad1" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ten_Rent" FunctionName="amlakModel.Store.aa_SP_Ten_Rent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ten_Rent_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ten_Rent_D" FunctionName="amlakModel.Store.aa_SP_Ten_Rent_D">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ten_Rent_D_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ten_Sale" FunctionName="amlakModel.Store.aa_SP_Ten_Sale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ten_Sale_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="blnKolangi" ColumnName="blnKolangi" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="fltFloors" ColumnName="fltFloors" />
+          <ScalarProperty Name="tintUnit" ColumnName="tintUnit" />
+          <ScalarProperty Name="sintUnits" ColumnName="sintUnits" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="blnAsansor" ColumnName="blnAsansor" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdSanad1" ColumnName="intIdSanad1" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Ten_Sale_D" FunctionName="amlakModel.Store.aa_SP_Ten_Sale_D">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Ten_Sale_D_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="fltFloor" ColumnName="fltFloor" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="blnTafkik" ColumnName="blnTafkik" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Villa_Rent" FunctionName="amlakModel.Store.aa_SP_Villa_Rent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Villa_Rent_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltVadieh" ColumnName="fltVadieh" />
+          <ScalarProperty Name="fltEjare" ColumnName="fltEjare" />
+          <ScalarProperty Name="blnDoller" ColumnName="blnDoller" />
+          <ScalarProperty Name="blnKhareji" ColumnName="blnKhareji" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Villa_Sale" FunctionName="amlakModel.Store.aa_SP_Villa_Sale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Villa_Sale_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="blnKolangi" ColumnName="blnKolangi" />
+          <ScalarProperty Name="fltGround" ColumnName="fltGround" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="fltZirbana" ColumnName="fltZirbana" />
+          <ScalarProperty Name="tintRoom" ColumnName="tintRoom" />
+          <ScalarProperty Name="sintTphone" ColumnName="sintTphone" />
+          <ScalarProperty Name="blnGaz" ColumnName="blnGaz" />
+          <ScalarProperty Name="intIdNBargh" ColumnName="intIdNBargh" />
+          <ScalarProperty Name="intIdNama" ColumnName="intIdNama" />
+          <ScalarProperty Name="intIdKaf" ColumnName="intIdKaf" />
+          <ScalarProperty Name="blnPark" ColumnName="blnPark" />
+          <ScalarProperty Name="intIdKitchen" ColumnName="intIdKitchen" />
+          <ScalarProperty Name="intIdKabinet" ColumnName="intIdKabinet" />
+          <ScalarProperty Name="fltMetrajAnbari" ColumnName="fltMetrajAnbari" />
+          <ScalarProperty Name="intIdService" ColumnName="intIdService" />
+          <ScalarProperty Name="tintOmr" ColumnName="tintOmr" />
+          <ScalarProperty Name="intIdHararat" ColumnName="intIdHararat" />
+          <ScalarProperty Name="blnShomineh" ColumnName="blnShomineh" />
+          <ScalarProperty Name="blnSona" ColumnName="blnSona" />
+          <ScalarProperty Name="blnHayat" ColumnName="blnHayat" />
+          <ScalarProperty Name="intIdPool" ColumnName="intIdPool" />
+          <ScalarProperty Name="blnJakuzi" ColumnName="blnJakuzi" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="intIdDublex" ColumnName="intIdDublex" />
+          <ScalarProperty Name="intIdKarbari" ColumnName="intIdKarbari" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="intIdMobleh" ColumnName="intIdMobleh" />
+          <ScalarProperty Name="fltMetrajBalcon" ColumnName="fltMetrajBalcon" />
+          <ScalarProperty Name="blnIfon" ColumnName="blnIfon" />
+          <ScalarProperty Name="blnRemoteDoor" ColumnName="blnRemoteDoor" />
+          <ScalarProperty Name="blnSecurity" ColumnName="blnSecurity" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdNama1" ColumnName="intIdNama1" />
+          <ScalarProperty Name="chrNameNama" ColumnName="chrNameNama" />
+          <ScalarProperty Name="intIdKaf1" ColumnName="intIdKaf1" />
+          <ScalarProperty Name="chrNameKaf" ColumnName="chrNameKaf" />
+          <ScalarProperty Name="intIdService1" ColumnName="intIdService1" />
+          <ScalarProperty Name="chrNameService" ColumnName="chrNameService" />
+          <ScalarProperty Name="intIdKitchen1" ColumnName="intIdKitchen1" />
+          <ScalarProperty Name="chrNameKitchen" ColumnName="chrNameKitchen" />
+          <ScalarProperty Name="intIdKabinet1" ColumnName="intIdKabinet1" />
+          <ScalarProperty Name="chrNameKabinet" ColumnName="chrNameKabinet" />
+          <ScalarProperty Name="intIdKarbari1" ColumnName="intIdKarbari1" />
+          <ScalarProperty Name="chrNameKarbari" ColumnName="chrNameKarbari" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdSanad1" ColumnName="intIdSanad1" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+          <ScalarProperty Name="intIdHararat1" ColumnName="intIdHararat1" />
+          <ScalarProperty Name="chrNameHararat" ColumnName="chrNameHararat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aa_SP_Zamin_Sale" FunctionName="amlakModel.Store.aa_SP_Zamin_Sale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amlakModel.aa_SP_Zamin_Sale_Result">
+          <ScalarProperty Name="intId" ColumnName="intId" />
+          <ScalarProperty Name="chrDate" ColumnName="chrDate" />
+          <ScalarProperty Name="blnEslah" ColumnName="blnEslah" />
+          <ScalarProperty Name="chrDateEslah" ColumnName="chrDateEslah" />
+          <ScalarProperty Name="chrName" ColumnName="chrName" />
+          <ScalarProperty Name="chrPhone1" ColumnName="chrPhone1" />
+          <ScalarProperty Name="chrPhone2" ColumnName="chrPhone2" />
+          <ScalarProperty Name="chrPhone3" ColumnName="chrPhone3" />
+          <ScalarProperty Name="intIdAddress" ColumnName="intIdAddress" />
+          <ScalarProperty Name="chrAddressMelk" ColumnName="chrAddressMelk" />
+          <ScalarProperty Name="chrPelak" ColumnName="chrPelak" />
+          <ScalarProperty Name="intIdMahdoodeh" ColumnName="intIdMahdoodeh" />
+          <ScalarProperty Name="intIdJusti" ColumnName="intIdJusti" />
+          <ScalarProperty Name="intIdZRegion" ColumnName="intIdZRegion" />
+          <ScalarProperty Name="fltTarakom" ColumnName="fltTarakom" />
+          <ScalarProperty Name="fltEslahi" ColumnName="fltEslahi" />
+          <ScalarProperty Name="fltmetraj" ColumnName="fltmetraj" />
+          <ScalarProperty Name="blnWall" ColumnName="blnWall" />
+          <ScalarProperty Name="intIdSanad" ColumnName="intIdSanad" />
+          <ScalarProperty Name="fltBar" ColumnName="fltBar" />
+          <ScalarProperty Name="blnAsfalt" ColumnName="blnAsfalt" />
+          <ScalarProperty Name="blnAb" ColumnName="blnAb" />
+          <ScalarProperty Name="blnBargh" ColumnName="blnBargh" />
+          <ScalarProperty Name="fltTool" ColumnName="fltTool" />
+          <ScalarProperty Name="blnChaheAb" ColumnName="blnChaheAb" />
+          <ScalarProperty Name="tintFaseleh" ColumnName="tintFaseleh" />
+          <ScalarProperty Name="fltPrice" ColumnName="fltPrice" />
+          <ScalarProperty Name="fltMetri" ColumnName="fltMetri" />
+          <ScalarProperty Name="chrMolahezat" ColumnName="chrMolahezat" />
+          <ScalarProperty Name="blnBuildCrt" ColumnName="blnBuildCrt" />
+          <ScalarProperty Name="intIdMalekiat" ColumnName="intIdMalekiat" />
+          <ScalarProperty Name="chrNTree" ColumnName="chrNTree" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="blnIsPersonal" ColumnName="blnIsPersonal" />
+          <ScalarProperty Name="intIdResidan" ColumnName="intIdResidan" />
+          <ScalarProperty Name="chrTavasot" ColumnName="chrTavasot" />
+          <ScalarProperty Name="chrVaredkonandeh" ColumnName="chrVaredkonandeh" />
+          <ScalarProperty Name="intIdAddress1" ColumnName="intIdAddress1" />
+          <ScalarProperty Name="chrNameAddress" ColumnName="chrNameAddress" />
+          <ScalarProperty Name="chrRegion" ColumnName="chrRegion" />
+          <ScalarProperty Name="intIdResidan1" ColumnName="intIdResidan1" />
+          <ScalarProperty Name="chrNameResidan" ColumnName="chrNameResidan" />
+          <ScalarProperty Name="intIdJusti1" ColumnName="intIdJusti1" />
+          <ScalarProperty Name="chrNameJusti" ColumnName="chrNameJusti" />
+          <ScalarProperty Name="intIdSanad1" ColumnName="intIdSanad1" />
+          <ScalarProperty Name="chrNameSanad" ColumnName="chrNameSanad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

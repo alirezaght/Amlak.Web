@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Amlak.Web", "Quantum.Amlak.Web\Quantum.Amlak.Web.csproj", "{CDEF41DD-B605-49E5-8C75-F3C88450059E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Amlak.Web.Tests", "Quantum.Amlak.Web.Tests\Quantum.Amlak.Web.Tests.csproj", "{97EAABA8-2ADD-4247-A2B0-E8666F0C9C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEF41DD-B605-49E5-8C75-F3C88450059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEF41DD-B605-49E5-8C75-F3C88450059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEF41DD-B605-49E5-8C75-F3C88450059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEF41DD-B605-49E5-8C75-F3C88450059E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EAABA8-2ADD-4247-A2B0-E8666F0C9C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EAABA8-2ADD-4247-A2B0-E8666F0C9C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EAABA8-2ADD-4247-A2B0-E8666F0C9C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EAABA8-2ADD-4247-A2B0-E8666F0C9C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

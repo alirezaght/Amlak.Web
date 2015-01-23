@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Quantum.Amlak.Web.Models.FileApartmentRent>
+
+<table class="table" id="fileTbl">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OwnerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Floor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Floors)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoUnitsPerFloor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Area)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rooms)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HasParkingLot)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CellarArea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OtherSpces)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MortgageValue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RentValue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OtherDescription)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OwnerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Floor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Floors)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoUnitsPerFloor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasParkingLot)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CellarArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherSpces)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MortgageValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherDescription)
+            </td>
+        </tr>
+    }
+
+</table>
+
+

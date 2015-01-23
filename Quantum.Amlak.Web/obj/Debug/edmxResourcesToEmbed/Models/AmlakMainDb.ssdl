@@ -1,0 +1,2799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="amlakModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_BaseAddress">
+    <Key>
+      <PropertyRef Name="intIdAddress" />
+    </Key>
+    <Property Name="intIdAddress" Type="int" Nullable="false" />
+    <Property Name="chrNameAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="chrRegion" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_BaseDublex">
+    <Key>
+      <PropertyRef Name="intIdDublex" />
+    </Key>
+    <Property Name="intIdDublex" Type="int" Nullable="false" />
+    <Property Name="chrNameDublex" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'amlak.dbo.tbl_BaseFile' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_BaseFile">
+    <Key>
+      <PropertyRef Name="intIdFile" />
+    </Key>
+    <Property Name="intIdFile" Type="int" Nullable="false" />
+    <Property Name="chrNameFile" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_BaseHararat">
+    <Key>
+      <PropertyRef Name="intIdHararat" />
+    </Key>
+    <Property Name="intIdHararat" Type="int" Nullable="false" />
+    <Property Name="chrNameHararat" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseJusti">
+    <Key>
+      <PropertyRef Name="intIdJusti" />
+    </Key>
+    <Property Name="intIdJusti" Type="int" Nullable="false" />
+    <Property Name="chrNameJusti" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseKabinet">
+    <Key>
+      <PropertyRef Name="intIdKabinet" />
+    </Key>
+    <Property Name="intIdKabinet" Type="int" Nullable="false" />
+    <Property Name="chrNameKabinet" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseKaf">
+    <Key>
+      <PropertyRef Name="intIdKaf" />
+    </Key>
+    <Property Name="intIdKaf" Type="int" Nullable="false" />
+    <Property Name="chrNameKaf" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseKarbari">
+    <Key>
+      <PropertyRef Name="intIdKarbari" />
+    </Key>
+    <Property Name="intIdKarbari" Type="int" Nullable="false" />
+    <Property Name="chrNameKarbari" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseKitchen">
+    <Key>
+      <PropertyRef Name="intIdKitchen" />
+    </Key>
+    <Property Name="intIdKitchen" Type="int" Nullable="false" />
+    <Property Name="chrNameKitchen" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseMahdoodeh">
+    <Key>
+      <PropertyRef Name="intIdMahdoodeh" />
+    </Key>
+    <Property Name="intIdMahdoodeh" Type="int" Nullable="false" />
+    <Property Name="chrNameMahdoodeh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseMalekiat">
+    <Key>
+      <PropertyRef Name="intIdMalekiat" />
+    </Key>
+    <Property Name="intIdMalekiat" Type="int" Nullable="false" />
+    <Property Name="chrNameMalekiat" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseMCategory">
+    <Key>
+      <PropertyRef Name="intIdMCategory" />
+    </Key>
+    <Property Name="intIdMCategory" Type="int" Nullable="false" />
+    <Property Name="chrNameMCategory" Type="nvarchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="tbl_BaseMobleh">
+    <Key>
+      <PropertyRef Name="intIdMobleh" />
+    </Key>
+    <Property Name="intIdMobleh" Type="int" Nullable="false" />
+    <Property Name="chrNameMobleh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseNama">
+    <Key>
+      <PropertyRef Name="intIdNama" />
+    </Key>
+    <Property Name="intIdNama" Type="int" Nullable="false" />
+    <Property Name="chrNameNama" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseNBargh">
+    <Key>
+      <PropertyRef Name="intIdNBargh" />
+    </Key>
+    <Property Name="intIdNBargh" Type="int" Nullable="false" />
+    <Property Name="chrNameNBargh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseNJavaz">
+    <Key>
+      <PropertyRef Name="intIdNJavaz" />
+    </Key>
+    <Property Name="intIdNJavaz" Type="int" Nullable="false" />
+    <Property Name="chrNameNJavaz" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseOperator">
+    <Key>
+      <PropertyRef Name="intIdOperator" />
+    </Key>
+    <Property Name="intIdOperator" Type="int" Nullable="false" />
+    <Property Name="chrNameOperator" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BasePool">
+    <Key>
+      <PropertyRef Name="intIdPool" />
+    </Key>
+    <Property Name="intIdPool" Type="int" Nullable="false" />
+    <Property Name="chrNamePool" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseRefer">
+    <Key>
+      <PropertyRef Name="intIdRefer" />
+    </Key>
+    <Property Name="intIdRefer" Type="int" Nullable="false" />
+    <Property Name="chrNameRefer" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseResidan">
+    <Key>
+      <PropertyRef Name="intIdResidan" />
+    </Key>
+    <Property Name="intIdResidan" Type="int" Nullable="false" />
+    <Property Name="chrNameResidan" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'amlak.dbo.tbl_BaseResult' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_BaseResult">
+    <Key>
+      <PropertyRef Name="intIdResult" />
+    </Key>
+    <Property Name="intIdResult" Type="int" Nullable="false" />
+    <Property Name="chrNameResult" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_BaseSanad">
+    <Key>
+      <PropertyRef Name="intIdSanad" />
+    </Key>
+    <Property Name="intIdSanad" Type="int" Nullable="false" />
+    <Property Name="chrNameSanad" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseService">
+    <Key>
+      <PropertyRef Name="intIdService" />
+    </Key>
+    <Property Name="intIdService" Type="int" Nullable="false" />
+    <Property Name="chrNameService" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseTablo">
+    <Key>
+      <PropertyRef Name="intIdTablo" />
+    </Key>
+    <Property Name="intIdTablo" Type="int" Nullable="false" />
+    <Property Name="chrNameTablo" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseWall">
+    <Key>
+      <PropertyRef Name="intIdWall" />
+    </Key>
+    <Property Name="intIdWall" Type="int" Nullable="false" />
+    <Property Name="chrNameWall" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_BaseZRegion">
+    <Key>
+      <PropertyRef Name="intIdZregion" />
+    </Key>
+    <Property Name="intIdZregion" Type="int" Nullable="false" />
+    <Property Name="chrNameZRegion" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'amlak.dbo.tbl_DetailEjareMostaghelat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_DetailEjareMostaghelat">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" Nullable="false" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="fltZirbana" Type="float" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTphone" Type="smallint" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'amlak.dbo.tbl_DetailSaleMostaghelat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_DetailSaleMostaghelat">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" Nullable="false" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="fltZirbana" Type="float" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTphone" Type="smallint" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="blnTafkik" Type="bit" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+  </EntityType>
+  <EntityType Name="tbl_EjareAparteman">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="blnSuit" Type="bit" />
+    <Property Name="fltFloors" Type="float" />
+    <Property Name="tintUnit" Type="tinyint" />
+    <Property Name="sintUnits" Type="smallint" />
+    <Property Name="fltZirbana" Type="float" Nullable="false" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTPhone" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnAsansor" Type="bit" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltVadieh" Type="float" />
+    <Property Name="fltEjare" Type="float" />
+    <Property Name="blnDoller" Type="bit" />
+    <Property Name="blnKhareji" Type="bit" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="blnMalek" Type="bit" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="blnPantHouse" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_EjareMaghaze">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="fltZirbana" Type="float" />
+    <Property Name="sintTPhone" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="blnAbdarkhaneh" Type="bit" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdNJavaz" Type="int" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="chrJob" Type="nvarchar" MaxLength="30" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="blnAb" Type="bit" />
+    <Property Name="blnWC" Type="bit" />
+    <Property Name="fltErtefa" Type="float" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="intIdWall" Type="int" />
+    <Property Name="intIdTablo" Type="int" />
+    <Property Name="blnVitrin" Type="bit" />
+    <Property Name="blnGhafaseh" Type="bit" />
+    <Property Name="fltVadieh" Type="float" />
+    <Property Name="fltEjare" Type="float" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_EjareMostaghelat">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltGround" Type="float" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="fltFloors" Type="float" />
+    <Property Name="tintUnit" Type="tinyint" />
+    <Property Name="sintUnits" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnAsansor" Type="bit" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltVadieh" Type="float" />
+    <Property Name="fltEjare" Type="float" />
+    <Property Name="blnDoller" Type="bit" />
+    <Property Name="blnKhareji" Type="bit" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_EjareVila">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltGround" Type="float" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="fltZirbana" Type="float" Nullable="false" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTphone" Type="smallint" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltVadieh" Type="float" />
+    <Property Name="fltEjare" Type="float" />
+    <Property Name="blnDoller" Type="bit" />
+    <Property Name="blnKhareji" Type="bit" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_SaleAparteman">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="blnSuit" Type="bit" />
+    <Property Name="fltGround" Type="float" />
+    <Property Name="fltFloors" Type="float" />
+    <Property Name="tintUnit" Type="tinyint" />
+    <Property Name="sintUnits" Type="smallint" />
+    <Property Name="fltZirbana" Type="float" Nullable="false" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTPhone" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnAsansor" Type="bit" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltPrice" Type="float" />
+    <Property Name="fltMetri" Type="float" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="fltVam" Type="float" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="intIdSanad" Type="int" />
+    <Property Name="blnPishForoush" Type="bit" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="blnPantHouse" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="fltTimeTahvil" Type="float" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_SaleMaghaze">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="fltFloor" Type="float" />
+    <Property Name="fltZirbana" Type="float" />
+    <Property Name="sintTPhone" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="blnAbdarkhaneh" Type="bit" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdNJavaz" Type="int" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="chrJob" Type="nvarchar" MaxLength="30" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="intIdOperator" Type="int" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="blnAb" Type="bit" />
+    <Property Name="blnWC" Type="bit" />
+    <Property Name="fltErtefa" Type="float" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="fltSarghofli" Type="float" />
+    <Property Name="fltSMetri" Type="float" />
+    <Property Name="fltMalekiat" Type="float" />
+    <Property Name="fltMMetri" Type="float" />
+    <Property Name="fltRuyeham" Type="float" />
+    <Property Name="fltRMetri" Type="float" />
+    <Property Name="fltKelid" Type="float" />
+    <Property Name="fltMablaghJadid" Type="float" />
+    <Property Name="intIdSanad" Type="int" />
+    <Property Name="intIdWall" Type="int" />
+    <Property Name="intIdTablo" Type="int" />
+    <Property Name="blnVitrin" Type="bit" />
+    <Property Name="blnGhafaseh" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_SaleMostaghelat">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="blnKolangi" Type="bit" />
+    <Property Name="fltGround" Type="float" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="fltEslahi" Type="float" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="fltFloors" Type="float" />
+    <Property Name="tintUnit" Type="tinyint" />
+    <Property Name="sintUnits" Type="smallint" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="blnAsansor" Type="bit" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltPrice" Type="float" />
+    <Property Name="fltMetri" Type="float" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="intIdSanad" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_SaleVila">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="blnKolangi" Type="bit" />
+    <Property Name="fltGround" Type="float" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="fltEslahi" Type="float" />
+    <Property Name="fltZirbana" Type="float" Nullable="false" />
+    <Property Name="tintRoom" Type="tinyint" />
+    <Property Name="sintTphone" Type="smallint" />
+    <Property Name="blnGaz" Type="bit" />
+    <Property Name="intIdNBargh" Type="int" />
+    <Property Name="intIdNama" Type="int" />
+    <Property Name="intIdKaf" Type="int" />
+    <Property Name="blnPark" Type="bit" />
+    <Property Name="intIdKitchen" Type="int" />
+    <Property Name="intIdKabinet" Type="int" />
+    <Property Name="fltMetrajAnbari" Type="float" />
+    <Property Name="intIdService" Type="int" />
+    <Property Name="tintOmr" Type="tinyint" />
+    <Property Name="intIdHararat" Type="int" />
+    <Property Name="blnShomineh" Type="bit" />
+    <Property Name="blnSona" Type="bit" />
+    <Property Name="blnHayat" Type="bit" />
+    <Property Name="intIdPool" Type="int" />
+    <Property Name="blnJakuzi" Type="bit" />
+    <Property Name="fltPrice" Type="float" />
+    <Property Name="fltMetri" Type="float" />
+    <Property Name="intIdDublex" Type="int" />
+    <Property Name="intIdKarbari" Type="int" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="intIdSanad" Type="int" />
+    <Property Name="intIdMobleh" Type="int" />
+    <Property Name="fltMetrajBalcon" Type="float" />
+    <Property Name="blnIfon" Type="bit" />
+    <Property Name="blnRemoteDoor" Type="bit" />
+    <Property Name="blnSecurity" Type="bit" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_SaleZamin">
+    <Key>
+      <PropertyRef Name="intId" />
+    </Key>
+    <Property Name="intId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chrDate" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="blnEslah" Type="bit" />
+    <Property Name="chrDateEslah" Type="varchar" MaxLength="10" />
+    <Property Name="chrName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="chrPhone1" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone2" Type="nvarchar" MaxLength="22" />
+    <Property Name="chrPhone3" Type="nvarchar" MaxLength="22" />
+    <Property Name="intIdAddress" Type="int" />
+    <Property Name="chrAddressMelk" Type="nvarchar" MaxLength="255" />
+    <Property Name="chrPelak" Type="nvarchar" MaxLength="10" />
+    <Property Name="intIdMahdoodeh" Type="int" />
+    <Property Name="intIdJusti" Type="int" />
+    <Property Name="intIdZRegion" Type="int" />
+    <Property Name="fltTarakom" Type="float" />
+    <Property Name="fltEslahi" Type="float" />
+    <Property Name="fltmetraj" Type="float" />
+    <Property Name="blnWall" Type="bit" />
+    <Property Name="intIdSanad" Type="int" />
+    <Property Name="fltBar" Type="float" />
+    <Property Name="blnAsfalt" Type="bit" />
+    <Property Name="blnAb" Type="bit" />
+    <Property Name="blnBargh" Type="bit" />
+    <Property Name="fltTool" Type="float" />
+    <Property Name="blnChaheAb" Type="bit" />
+    <Property Name="tintFaseleh" Type="tinyint" />
+    <Property Name="fltPrice" Type="float" />
+    <Property Name="fltMetri" Type="float" />
+    <Property Name="chrMolahezat" Type="nvarchar" MaxLength="1000" />
+    <Property Name="blnBuildCrt" Type="bit" />
+    <Property Name="intIdMalekiat" Type="int" />
+    <Property Name="chrNTree" Type="nvarchar" MaxLength="50" />
+    <Property Name="number2" Type="int" />
+    <Property Name="blnIsPersonal" Type="bit" />
+    <Property Name="intIdResidan" Type="int" />
+    <Property Name="chrTavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="chrVaredkonandeh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" />
+    <Property Name="password" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="vila">
+    <Key>
+      <PropertyRef Name="number1" />
+    </Key>
+    <Property Name="number1" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date1" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="eslah" Type="bit" />
+    <Property Name="dateeslah" Type="nvarchar" MaxLength="10" />
+    <Property Name="region" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="name1" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="phone1" Type="nvarchar" MaxLength="8" />
+    <Property Name="phone2" Type="nvarchar" MaxLength="8" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="11" />
+    <Property Name="address" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="addressmelk" Type="nvarchar" MaxLength="60" />
+    <Property Name="pelak" Type="nvarchar" MaxLength="6" />
+    <Property Name="kolangi" Type="bit" />
+    <Property Name="ground" Type="float" />
+    <Property Name="bar" Type="float" />
+    <Property Name="eslahi" Type="float" />
+    <Property Name="zirbana" Type="float" Nullable="false" />
+    <Property Name="room" Type="tinyint" />
+    <Property Name="tphone" Type="smallint" />
+    <Property Name="gaz" Type="bit" />
+    <Property Name="nbargh" Type="nvarchar" MaxLength="14" />
+    <Property Name="nama" Type="nvarchar" MaxLength="10" />
+    <Property Name="kaf" Type="nvarchar" MaxLength="12" />
+    <Property Name="park" Type="bit" />
+    <Property Name="kitchen" Type="nvarchar" MaxLength="9" />
+    <Property Name="kabinet" Type="nvarchar" MaxLength="9" />
+    <Property Name="anbari" Type="bit" />
+    <Property Name="service" Type="nvarchar" MaxLength="12" />
+    <Property Name="omr" Type="tinyint" />
+    <Property Name="hararat" Type="nvarchar" MaxLength="11" />
+    <Property Name="shomineh" Type="bit" />
+    <Property Name="sona" Type="bit" />
+    <Property Name="hayat" Type="bit" />
+    <Property Name="pool" Type="bit" />
+    <Property Name="jakuzi" Type="bit" />
+    <Property Name="price" Type="float" />
+    <Property Name="metri" Type="float" />
+    <Property Name="dublex" Type="nvarchar" MaxLength="7" />
+    <Property Name="karbari" Type="nvarchar" MaxLength="12" />
+    <Property Name="residan" Type="nvarchar" MaxLength="15" />
+    <Property Name="tavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="varedkonandeh" Type="nvarchar" MaxLength="20" />
+    <Property Name="molahezat" Type="nvarchar" MaxLength="90" />
+    <Property Name="justi" Type="nvarchar" MaxLength="11" />
+    <Property Name="sanad" Type="nvarchar" MaxLength="6" />
+    <Property Name="rname1" Type="nvarchar" MaxLength="25" />
+    <Property Name="number2" Type="int" />
+    <Property Name="melkinfo" Type="bit" />
+    <Property Name="entmelkinfo" Type="bit" />
+  </EntityType>
+  <EntityType Name="zamin">
+    <Key>
+      <PropertyRef Name="number1" />
+    </Key>
+    <Property Name="number1" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date1" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="eslah" Type="bit" />
+    <Property Name="dateeslah" Type="nvarchar" MaxLength="10" />
+    <Property Name="region" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="name1" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="phone1" Type="nvarchar" MaxLength="8" />
+    <Property Name="phone2" Type="nvarchar" MaxLength="8" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="11" />
+    <Property Name="address" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="addressmelk" Type="nvarchar" MaxLength="60" />
+    <Property Name="mahdoodeh" Type="nvarchar" MaxLength="11" />
+    <Property Name="justi" Type="nvarchar" MaxLength="13" />
+    <Property Name="zregion" Type="nvarchar" MaxLength="7" />
+    <Property Name="tarakom" Type="float" />
+    <Property Name="eslahi" Type="float" />
+    <Property Name="metraj" Type="float" />
+    <Property Name="wall" Type="bit" />
+    <Property Name="sanad" Type="nvarchar" MaxLength="13" />
+    <Property Name="bar" Type="float" />
+    <Property Name="asfalt" Type="bit" />
+    <Property Name="ab" Type="bit" />
+    <Property Name="bargh" Type="bit" />
+    <Property Name="tool" Type="float" />
+    <Property Name="chaheab" Type="bit" />
+    <Property Name="fasele" Type="tinyint" />
+    <Property Name="price" Type="float" />
+    <Property Name="metri" Type="float" />
+    <Property Name="molahezat" Type="nvarchar" MaxLength="90" />
+    <Property Name="residan" Type="nvarchar" MaxLength="15" />
+    <Property Name="tavasot" Type="nvarchar" MaxLength="20" />
+    <Property Name="varedkonandeh" Type="nvarchar" MaxLength="20" />
+    <Property Name="rname1" Type="nvarchar" MaxLength="25" />
+    <Property Name="number2" Type="int" />
+    <Property Name="melkinfo" Type="bit" />
+    <Property Name="entmelkinfo" Type="bit" />
+  </EntityType>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailEjareMostaghelat_tbl_EjareMostaghelat">
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="tbl_DetailEjareMostaghelat" Type="Self.tbl_DetailEjareMostaghelat" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intId" />
+      </Principal>
+      <Dependent Role="tbl_DetailEjareMostaghelat">
+        <PropertyRef Name="intId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DetailSaleMostaghelat_tbl_SaleMostaghelat">
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="tbl_DetailSaleMostaghelat" Type="Self.tbl_DetailSaleMostaghelat" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intId" />
+      </Principal>
+      <Dependent Role="tbl_DetailSaleMostaghelat">
+        <PropertyRef Name="intId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareAparteman_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_EjareAparteman" Type="Self.tbl_EjareAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_EjareAparteman">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseNJavaz">
+    <End Role="tbl_BaseNJavaz" Type="Self.tbl_BaseNJavaz" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNJavaz">
+        <PropertyRef Name="intIdNJavaz" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdNJavaz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseTablo">
+    <End Role="tbl_BaseTablo" Type="Self.tbl_BaseTablo" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseTablo">
+        <PropertyRef Name="intIdTablo" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdTablo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMaghaze_tbl_BaseWall">
+    <End Role="tbl_BaseWall" Type="Self.tbl_BaseWall" Multiplicity="0..1" />
+    <End Role="tbl_EjareMaghaze" Type="Self.tbl_EjareMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseWall">
+        <PropertyRef Name="intIdWall" />
+      </Principal>
+      <Dependent Role="tbl_EjareMaghaze">
+        <PropertyRef Name="intIdWall" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareMostaghelat_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_EjareMostaghelat" Type="Self.tbl_EjareMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_EjareMostaghelat">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_EjareVila_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_EjareVila" Type="Self.tbl_EjareVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_EjareVila">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseSanad">
+    <End Role="tbl_BaseSanad" Type="Self.tbl_BaseSanad" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseSanad">
+        <PropertyRef Name="intIdSanad" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdSanad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleAparteman_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_SaleAparteman" Type="Self.tbl_SaleAparteman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_SaleAparteman">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseNJavaz">
+    <End Role="tbl_BaseNJavaz" Type="Self.tbl_BaseNJavaz" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNJavaz">
+        <PropertyRef Name="intIdNJavaz" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdNJavaz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseOperator">
+    <End Role="tbl_BaseOperator" Type="Self.tbl_BaseOperator" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseOperator">
+        <PropertyRef Name="intIdOperator" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdOperator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseSanad">
+    <End Role="tbl_BaseSanad" Type="Self.tbl_BaseSanad" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseSanad">
+        <PropertyRef Name="intIdSanad" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdSanad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseTablo">
+    <End Role="tbl_BaseTablo" Type="Self.tbl_BaseTablo" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseTablo">
+        <PropertyRef Name="intIdTablo" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdTablo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMaghaze_tbl_BaseWall">
+    <End Role="tbl_BaseWall" Type="Self.tbl_BaseWall" Multiplicity="0..1" />
+    <End Role="tbl_SaleMaghaze" Type="Self.tbl_SaleMaghaze" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseWall">
+        <PropertyRef Name="intIdWall" />
+      </Principal>
+      <Dependent Role="tbl_SaleMaghaze">
+        <PropertyRef Name="intIdWall" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleMostaghelat_tbl_BaseSanad">
+    <End Role="tbl_BaseSanad" Type="Self.tbl_BaseSanad" Multiplicity="0..1" />
+    <End Role="tbl_SaleMostaghelat" Type="Self.tbl_SaleMostaghelat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseSanad">
+        <PropertyRef Name="intIdSanad" />
+      </Principal>
+      <Dependent Role="tbl_SaleMostaghelat">
+        <PropertyRef Name="intIdSanad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseDublex">
+    <End Role="tbl_BaseDublex" Type="Self.tbl_BaseDublex" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseDublex">
+        <PropertyRef Name="intIdDublex" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdDublex" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseHararat">
+    <End Role="tbl_BaseHararat" Type="Self.tbl_BaseHararat" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseHararat">
+        <PropertyRef Name="intIdHararat" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdHararat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseKabinet">
+    <End Role="tbl_BaseKabinet" Type="Self.tbl_BaseKabinet" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKabinet">
+        <PropertyRef Name="intIdKabinet" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdKabinet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseKaf">
+    <End Role="tbl_BaseKaf" Type="Self.tbl_BaseKaf" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKaf">
+        <PropertyRef Name="intIdKaf" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdKaf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseKarbari">
+    <End Role="tbl_BaseKarbari" Type="Self.tbl_BaseKarbari" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKarbari">
+        <PropertyRef Name="intIdKarbari" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdKarbari" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseKitchen">
+    <End Role="tbl_BaseKitchen" Type="Self.tbl_BaseKitchen" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseKitchen">
+        <PropertyRef Name="intIdKitchen" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdKitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseMobleh">
+    <End Role="tbl_BaseMobleh" Type="Self.tbl_BaseMobleh" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMobleh">
+        <PropertyRef Name="intIdMobleh" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdMobleh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseNama">
+    <End Role="tbl_BaseNama" Type="Self.tbl_BaseNama" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNama">
+        <PropertyRef Name="intIdNama" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdNama" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseNBargh">
+    <End Role="tbl_BaseNBargh" Type="Self.tbl_BaseNBargh" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseNBargh">
+        <PropertyRef Name="intIdNBargh" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdNBargh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BasePool">
+    <End Role="tbl_BasePool" Type="Self.tbl_BasePool" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BasePool">
+        <PropertyRef Name="intIdPool" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdPool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseSanad">
+    <End Role="tbl_BaseSanad" Type="Self.tbl_BaseSanad" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseSanad">
+        <PropertyRef Name="intIdSanad" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdSanad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleVila_tbl_BaseService">
+    <End Role="tbl_BaseService" Type="Self.tbl_BaseService" Multiplicity="0..1" />
+    <End Role="tbl_SaleVila" Type="Self.tbl_SaleVila" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseService">
+        <PropertyRef Name="intIdService" />
+      </Principal>
+      <Dependent Role="tbl_SaleVila">
+        <PropertyRef Name="intIdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseAddress">
+    <End Role="tbl_BaseAddress" Type="Self.tbl_BaseAddress" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseAddress">
+        <PropertyRef Name="intIdAddress" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdAddress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseJusti">
+    <End Role="tbl_BaseJusti" Type="Self.tbl_BaseJusti" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseJusti">
+        <PropertyRef Name="intIdJusti" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdJusti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseMahdoodeh">
+    <End Role="tbl_BaseMahdoodeh" Type="Self.tbl_BaseMahdoodeh" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMahdoodeh">
+        <PropertyRef Name="intIdMahdoodeh" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdMahdoodeh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseMalekiat">
+    <End Role="tbl_BaseMalekiat" Type="Self.tbl_BaseMalekiat" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseMalekiat">
+        <PropertyRef Name="intIdMalekiat" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdMalekiat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseResidan">
+    <End Role="tbl_BaseResidan" Type="Self.tbl_BaseResidan" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseResidan">
+        <PropertyRef Name="intIdResidan" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdResidan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseSanad">
+    <End Role="tbl_BaseSanad" Type="Self.tbl_BaseSanad" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseSanad">
+        <PropertyRef Name="intIdSanad" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdSanad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_SaleZamin_tbl_BaseZregion">
+    <End Role="tbl_BaseZRegion" Type="Self.tbl_BaseZRegion" Multiplicity="0..1" />
+    <End Role="tbl_SaleZamin" Type="Self.tbl_SaleZamin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_BaseZRegion">
+        <PropertyRef Name="intIdZregion" />
+      </Principal>
+      <Dependent Role="tbl_SaleZamin">
+        <PropertyRef Name="intIdZRegion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="aa_SP_Ap_Rent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Ap_Sale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Shop_Rent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Shop_Sale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Ten_Rent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Ten_Rent_D" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Ten_Sale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Ten_Sale_D" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Villa_Rent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Villa_Sale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aa_SP_Zamin_Sale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtFrom" Type="nvarchar" Mode="In" />
+    <Parameter Name="dtTo" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="amlakModelStoreContainer">
+    <EntitySet Name="tbl_BaseAddress" EntityType="Self.tbl_BaseAddress" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseDublex" EntityType="Self.tbl_BaseDublex" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseHararat" EntityType="Self.tbl_BaseHararat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseJusti" EntityType="Self.tbl_BaseJusti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseKabinet" EntityType="Self.tbl_BaseKabinet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseKaf" EntityType="Self.tbl_BaseKaf" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseKarbari" EntityType="Self.tbl_BaseKarbari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseKitchen" EntityType="Self.tbl_BaseKitchen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseMahdoodeh" EntityType="Self.tbl_BaseMahdoodeh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseMalekiat" EntityType="Self.tbl_BaseMalekiat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseMCategory" EntityType="Self.tbl_BaseMCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseMobleh" EntityType="Self.tbl_BaseMobleh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseNama" EntityType="Self.tbl_BaseNama" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseNBargh" EntityType="Self.tbl_BaseNBargh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseNJavaz" EntityType="Self.tbl_BaseNJavaz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseOperator" EntityType="Self.tbl_BaseOperator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BasePool" EntityType="Self.tbl_BasePool" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseRefer" EntityType="Self.tbl_BaseRefer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseResidan" EntityType="Self.tbl_BaseResidan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseSanad" EntityType="Self.tbl_BaseSanad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseService" EntityType="Self.tbl_BaseService" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseTablo" EntityType="Self.tbl_BaseTablo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseWall" EntityType="Self.tbl_BaseWall" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseZRegion" EntityType="Self.tbl_BaseZRegion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EjareAparteman" EntityType="Self.tbl_EjareAparteman" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EjareMaghaze" EntityType="Self.tbl_EjareMaghaze" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EjareMostaghelat" EntityType="Self.tbl_EjareMostaghelat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_EjareVila" EntityType="Self.tbl_EjareVila" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SaleAparteman" EntityType="Self.tbl_SaleAparteman" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SaleMaghaze" EntityType="Self.tbl_SaleMaghaze" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SaleMostaghelat" EntityType="Self.tbl_SaleMostaghelat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SaleVila" EntityType="Self.tbl_SaleVila" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SaleZamin" EntityType="Self.tbl_SaleZamin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vila" EntityType="Self.vila" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="zamin" EntityType="Self.zamin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BaseFile" EntityType="Self.tbl_BaseFile" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_BaseFile].[intIdFile] AS [intIdFile], 
+    [tbl_BaseFile].[chrNameFile] AS [chrNameFile]
+    FROM [dbo].[tbl_BaseFile] AS [tbl_BaseFile]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_BaseResult" EntityType="Self.tbl_BaseResult" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_BaseResult].[intIdResult] AS [intIdResult], 
+    [tbl_BaseResult].[chrNameResult] AS [chrNameResult]
+    FROM [dbo].[tbl_BaseResult] AS [tbl_BaseResult]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_DetailEjareMostaghelat" EntityType="Self.tbl_DetailEjareMostaghelat" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_DetailEjareMostaghelat].[intId] AS [intId], 
+    [tbl_DetailEjareMostaghelat].[fltFloor] AS [fltFloor], 
+    [tbl_DetailEjareMostaghelat].[fltZirbana] AS [fltZirbana], 
+    [tbl_DetailEjareMostaghelat].[tintRoom] AS [tintRoom], 
+    [tbl_DetailEjareMostaghelat].[sintTphone] AS [sintTphone], 
+    [tbl_DetailEjareMostaghelat].[fltMetrajAnbari] AS [fltMetrajAnbari], 
+    [tbl_DetailEjareMostaghelat].[intIdDublex] AS [intIdDublex], 
+    [tbl_DetailEjareMostaghelat].[intIdKaf] AS [intIdKaf], 
+    [tbl_DetailEjareMostaghelat].[intIdService] AS [intIdService], 
+    [tbl_DetailEjareMostaghelat].[intIdKitchen] AS [intIdKitchen], 
+    [tbl_DetailEjareMostaghelat].[intIdKabinet] AS [intIdKabinet], 
+    [tbl_DetailEjareMostaghelat].[blnShomineh] AS [blnShomineh], 
+    [tbl_DetailEjareMostaghelat].[blnHayat] AS [blnHayat], 
+    [tbl_DetailEjareMostaghelat].[fltMetrajBalcon] AS [fltMetrajBalcon]
+    FROM [dbo].[tbl_DetailEjareMostaghelat] AS [tbl_DetailEjareMostaghelat]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_DetailSaleMostaghelat" EntityType="Self.tbl_DetailSaleMostaghelat" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_DetailSaleMostaghelat].[intId] AS [intId], 
+    [tbl_DetailSaleMostaghelat].[fltFloor] AS [fltFloor], 
+    [tbl_DetailSaleMostaghelat].[fltZirbana] AS [fltZirbana], 
+    [tbl_DetailSaleMostaghelat].[tintRoom] AS [tintRoom], 
+    [tbl_DetailSaleMostaghelat].[sintTphone] AS [sintTphone], 
+    [tbl_DetailSaleMostaghelat].[fltMetrajAnbari] AS [fltMetrajAnbari], 
+    [tbl_DetailSaleMostaghelat].[intIdDublex] AS [intIdDublex], 
+    [tbl_DetailSaleMostaghelat].[blnTafkik] AS [blnTafkik], 
+    [tbl_DetailSaleMostaghelat].[intIdKaf] AS [intIdKaf], 
+    [tbl_DetailSaleMostaghelat].[intIdService] AS [intIdService], 
+    [tbl_DetailSaleMostaghelat].[intIdKitchen] AS [intIdKitchen], 
+    [tbl_DetailSaleMostaghelat].[intIdKabinet] AS [intIdKabinet], 
+    [tbl_DetailSaleMostaghelat].[blnShomineh] AS [blnShomineh], 
+    [tbl_DetailSaleMostaghelat].[blnHayat] AS [blnHayat], 
+    [tbl_DetailSaleMostaghelat].[fltMetrajBalcon] AS [fltMetrajBalcon]
+    FROM [dbo].[tbl_DetailSaleMostaghelat] AS [tbl_DetailSaleMostaghelat]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseDublex" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKabinet" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKaf" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseKitchen" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_BaseService" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailEjareMostaghelat_tbl_EjareMostaghelat" Association="Self.FK_tbl_DetailEjareMostaghelat_tbl_EjareMostaghelat">
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+      <End Role="tbl_DetailEjareMostaghelat" EntitySet="tbl_DetailEjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseDublex" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKabinet" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKaf" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseKitchen" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_BaseService" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DetailSaleMostaghelat_tbl_SaleMostaghelat" Association="Self.FK_tbl_DetailSaleMostaghelat_tbl_SaleMostaghelat">
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+      <End Role="tbl_DetailSaleMostaghelat" EntitySet="tbl_DetailSaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseAddress" Association="Self.FK_tbl_EjareAparteman_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseDublex" Association="Self.FK_tbl_EjareAparteman_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseHararat" Association="Self.FK_tbl_EjareAparteman_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseJusti" Association="Self.FK_tbl_EjareAparteman_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseKabinet" Association="Self.FK_tbl_EjareAparteman_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseKaf" Association="Self.FK_tbl_EjareAparteman_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseKarbari" Association="Self.FK_tbl_EjareAparteman_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseKitchen" Association="Self.FK_tbl_EjareAparteman_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseMobleh" Association="Self.FK_tbl_EjareAparteman_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseNama" Association="Self.FK_tbl_EjareAparteman_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BasePool" Association="Self.FK_tbl_EjareAparteman_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseResidan" Association="Self.FK_tbl_EjareAparteman_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareAparteman_tbl_BaseService" Association="Self.FK_tbl_EjareAparteman_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_EjareAparteman" EntitySet="tbl_EjareAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseAddress" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseHararat" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseJusti" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseKaf" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseNama" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseNBargh" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseNJavaz" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseNJavaz">
+      <End Role="tbl_BaseNJavaz" EntitySet="tbl_BaseNJavaz" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseResidan" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseTablo" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseTablo">
+      <End Role="tbl_BaseTablo" EntitySet="tbl_BaseTablo" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMaghaze_tbl_BaseWall" Association="Self.FK_tbl_EjareMaghaze_tbl_BaseWall">
+      <End Role="tbl_BaseWall" EntitySet="tbl_BaseWall" />
+      <End Role="tbl_EjareMaghaze" EntitySet="tbl_EjareMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseAddress" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseHararat" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseJusti" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseKarbari" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseMobleh" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseNama" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseNBargh" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BasePool" Association="Self.FK_tbl_EjareMostaghelat_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareMostaghelat_tbl_BaseResidan" Association="Self.FK_tbl_EjareMostaghelat_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_EjareMostaghelat" EntitySet="tbl_EjareMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseAddress" Association="Self.FK_tbl_EjareVila_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseDublex" Association="Self.FK_tbl_EjareVila_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseHararat" Association="Self.FK_tbl_EjareVila_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseJusti" Association="Self.FK_tbl_EjareVila_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseKabinet" Association="Self.FK_tbl_EjareVila_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseKaf" Association="Self.FK_tbl_EjareVila_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseKarbari" Association="Self.FK_tbl_EjareVila_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseKitchen" Association="Self.FK_tbl_EjareVila_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseMobleh" Association="Self.FK_tbl_EjareVila_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseNama" Association="Self.FK_tbl_EjareVila_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseNBargh" Association="Self.FK_tbl_EjareVila_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BasePool" Association="Self.FK_tbl_EjareVila_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseResidan" Association="Self.FK_tbl_EjareVila_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_EjareVila_tbl_BaseService" Association="Self.FK_tbl_EjareVila_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_EjareVila" EntitySet="tbl_EjareVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseAddress" Association="Self.FK_tbl_SaleAparteman_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseDublex" Association="Self.FK_tbl_SaleAparteman_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseHararat" Association="Self.FK_tbl_SaleAparteman_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseJusti" Association="Self.FK_tbl_SaleAparteman_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseKabinet" Association="Self.FK_tbl_SaleAparteman_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseKaf" Association="Self.FK_tbl_SaleAparteman_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseKarbari" Association="Self.FK_tbl_SaleAparteman_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseKitchen" Association="Self.FK_tbl_SaleAparteman_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseMobleh" Association="Self.FK_tbl_SaleAparteman_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseNama" Association="Self.FK_tbl_SaleAparteman_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BasePool" Association="Self.FK_tbl_SaleAparteman_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseResidan" Association="Self.FK_tbl_SaleAparteman_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseSanad" Association="Self.FK_tbl_SaleAparteman_tbl_BaseSanad">
+      <End Role="tbl_BaseSanad" EntitySet="tbl_BaseSanad" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleAparteman_tbl_BaseService" Association="Self.FK_tbl_SaleAparteman_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_SaleAparteman" EntitySet="tbl_SaleAparteman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseAddress" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseHararat" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseJusti" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseKaf" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseNama" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseNBargh" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseNJavaz" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseNJavaz">
+      <End Role="tbl_BaseNJavaz" EntitySet="tbl_BaseNJavaz" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseOperator" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseOperator">
+      <End Role="tbl_BaseOperator" EntitySet="tbl_BaseOperator" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseResidan" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseSanad" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseSanad">
+      <End Role="tbl_BaseSanad" EntitySet="tbl_BaseSanad" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseTablo" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseTablo">
+      <End Role="tbl_BaseTablo" EntitySet="tbl_BaseTablo" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMaghaze_tbl_BaseWall" Association="Self.FK_tbl_SaleMaghaze_tbl_BaseWall">
+      <End Role="tbl_BaseWall" EntitySet="tbl_BaseWall" />
+      <End Role="tbl_SaleMaghaze" EntitySet="tbl_SaleMaghaze" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseAddress" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseHararat" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseJusti" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseKarbari" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseMobleh" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseNama" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseNBargh" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BasePool" Association="Self.FK_tbl_SaleMostaghelat_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseResidan" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleMostaghelat_tbl_BaseSanad" Association="Self.FK_tbl_SaleMostaghelat_tbl_BaseSanad">
+      <End Role="tbl_BaseSanad" EntitySet="tbl_BaseSanad" />
+      <End Role="tbl_SaleMostaghelat" EntitySet="tbl_SaleMostaghelat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseAddress" Association="Self.FK_tbl_SaleVila_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseDublex" Association="Self.FK_tbl_SaleVila_tbl_BaseDublex">
+      <End Role="tbl_BaseDublex" EntitySet="tbl_BaseDublex" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseHararat" Association="Self.FK_tbl_SaleVila_tbl_BaseHararat">
+      <End Role="tbl_BaseHararat" EntitySet="tbl_BaseHararat" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseJusti" Association="Self.FK_tbl_SaleVila_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseKabinet" Association="Self.FK_tbl_SaleVila_tbl_BaseKabinet">
+      <End Role="tbl_BaseKabinet" EntitySet="tbl_BaseKabinet" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseKaf" Association="Self.FK_tbl_SaleVila_tbl_BaseKaf">
+      <End Role="tbl_BaseKaf" EntitySet="tbl_BaseKaf" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseKarbari" Association="Self.FK_tbl_SaleVila_tbl_BaseKarbari">
+      <End Role="tbl_BaseKarbari" EntitySet="tbl_BaseKarbari" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseKitchen" Association="Self.FK_tbl_SaleVila_tbl_BaseKitchen">
+      <End Role="tbl_BaseKitchen" EntitySet="tbl_BaseKitchen" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseMobleh" Association="Self.FK_tbl_SaleVila_tbl_BaseMobleh">
+      <End Role="tbl_BaseMobleh" EntitySet="tbl_BaseMobleh" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseNama" Association="Self.FK_tbl_SaleVila_tbl_BaseNama">
+      <End Role="tbl_BaseNama" EntitySet="tbl_BaseNama" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseNBargh" Association="Self.FK_tbl_SaleVila_tbl_BaseNBargh">
+      <End Role="tbl_BaseNBargh" EntitySet="tbl_BaseNBargh" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BasePool" Association="Self.FK_tbl_SaleVila_tbl_BasePool">
+      <End Role="tbl_BasePool" EntitySet="tbl_BasePool" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseResidan" Association="Self.FK_tbl_SaleVila_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseSanad" Association="Self.FK_tbl_SaleVila_tbl_BaseSanad">
+      <End Role="tbl_BaseSanad" EntitySet="tbl_BaseSanad" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleVila_tbl_BaseService" Association="Self.FK_tbl_SaleVila_tbl_BaseService">
+      <End Role="tbl_BaseService" EntitySet="tbl_BaseService" />
+      <End Role="tbl_SaleVila" EntitySet="tbl_SaleVila" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseAddress" Association="Self.FK_tbl_SaleZamin_tbl_BaseAddress">
+      <End Role="tbl_BaseAddress" EntitySet="tbl_BaseAddress" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseJusti" Association="Self.FK_tbl_SaleZamin_tbl_BaseJusti">
+      <End Role="tbl_BaseJusti" EntitySet="tbl_BaseJusti" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseMahdoodeh" Association="Self.FK_tbl_SaleZamin_tbl_BaseMahdoodeh">
+      <End Role="tbl_BaseMahdoodeh" EntitySet="tbl_BaseMahdoodeh" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseMalekiat" Association="Self.FK_tbl_SaleZamin_tbl_BaseMalekiat">
+      <End Role="tbl_BaseMalekiat" EntitySet="tbl_BaseMalekiat" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseResidan" Association="Self.FK_tbl_SaleZamin_tbl_BaseResidan">
+      <End Role="tbl_BaseResidan" EntitySet="tbl_BaseResidan" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseSanad" Association="Self.FK_tbl_SaleZamin_tbl_BaseSanad">
+      <End Role="tbl_BaseSanad" EntitySet="tbl_BaseSanad" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_SaleZamin_tbl_BaseZregion" Association="Self.FK_tbl_SaleZamin_tbl_BaseZregion">
+      <End Role="tbl_BaseZRegion" EntitySet="tbl_BaseZRegion" />
+      <End Role="tbl_SaleZamin" EntitySet="tbl_SaleZamin" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
